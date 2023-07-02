@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <title>My Portfolio</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background:linear-gradient(125deg, rgb(0, 0, 46), rgb(11, 0, 73)) ;
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        background: linear-gradient(135deg, rgb(0, 0, 73), rgb(0, 0, 80)) ;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 65px;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: rgb(59, 255, 255);
+      }
+      nav ul li a:hover {
+        color: white;
+        text-decoration: underline;
+        font-size: 1.02rem;
+      }
+      
+
+      .left {
+        font-size: 1.5rem;
+      }
+      .Firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 23px 0px;
+      }
+      .Firstsection > div {
+        width: 33%;
+        margin: 80px 0px;
+      }
+      .leftSection {
+        font-size: 3rem;
+        margin: 30px 0px;
+      }
+
+      img {
+        height: 34rem;
+        margin: -110px 0px;
+      }
+      .purple {
+        color: rgb(196, 0, 196);
+      }
+      #element {
+        color: rgb(102, 95, 167);
+      }
+      main hr {
+        border: 0;
+        height: 1px;
+        margin: 50px 80px;
+        background: #3e77fe;
+      }
+      .secondsection {
+        margin: auto;
+        max-width: 80vw;
+        height: 80vh;
+      }
+      .secondsection h1 {
+        font-size: 2rem;
+      }
+      .text-gray {
+        color: gray;
+        margin: auto;
+        max-width: 80vw;
+        height: 80vh;
+      }
+      .card {
+ width: 190px;
+ height: 265px;
+ margin: 3rem auto;
+ background: linear-gradient(135deg, rgb(0, 106, 163), rgba(0, 0, 90, 0.323));
+ border-radius: 8px;
+ z-index: 1;
+ position: absolute;
+ right: 75%;
+ box-shadow:  0 0 4px #000000;
+ transition: all 0.3s ease ;
+ cursor: pointer;
+}
+.card-1{
+  width: 190px;
+ height: 265px;
+ margin: 3rem auto;
+ background: linear-gradient(135deg, rgb(0, 106, 163), rgba(0, 0, 90, 0.323));
+ border-radius: 8px;
+ box-shadow:  0 0 4px #000000;
+ z-index: 1;
+ position: absolute;
+ right: 55%;
+ transition: 0.3s;
+ cursor: pointer;
+}
+
+.card-2{
+  width: 190px;
+ height: 265px;
+ margin: 3rem auto;
+ background: linear-gradient(135deg, rgb(0, 106, 163), rgba(0, 0, 90, 0.323));
+ border-radius: 8px;
+ box-shadow:  0 0 4px #000000;
+ z-index: 1;
+ position: absolute;
+ right: 35%;
+ transition: 0.3s;
+ cursor: pointer;
+}
+.card-3{
+  width: 190px;
+ height: 265px;
+ margin: 3rem auto;
+ background: linear-gradient(135deg, rgb(0, 106, 163), rgba(0, 0, 90, 0.323));
+ border-radius: 8px;
+ box-shadow:  0 0 4px #000000;
+ z-index: 1;
+ position: absolute;
+ right: 15%;
+ transition: 0.3s;
+ cursor: pointer;
+}
+.card-4{
+  width: 190px;
+ height: 265px;
+ margin: 3rem auto;
+ background: linear-gradient(135deg, rgb(0, 106, 163), rgba(0, 0, 90, 0.323));
+ border-radius: 8px;
+ box-shadow:  0 0 4px #000000;
+ z-index: 1;
+ position: absolute;
+ right: 75%;
+ bottom: 10%;
+ top: 70rem;
+ transition: 0.3s;
+ cursor: pointer;
+}
+.card-5{
+  width: 190px;
+ height: 265px;
+ margin: 3rem auto;
+ background: linear-gradient(135deg, rgb(0, 106, 163), rgba(0, 0, 90, 0.323));
+ border-radius: 8px;
+ box-shadow:  0 0 4px #000000;
+ z-index: 1;
+ position: absolute;
+ right: 55%;
+ bottom: 10%;
+ top: 70rem;
+ transition: 0.3s;
+ cursor: pointer;
+}
+.card-6{
+  width: 190px;
+ height: 265px;
+ margin: 3rem auto;
+ background: linear-gradient(135deg, rgb(0, 106, 163), rgba(0, 0, 90, 0.323));
+ border-radius: 8px;
+ box-shadow:  0 0 4px #000000;
+ z-index: 1;
+ position: absolute;
+ right: 35%;
+ bottom: 10%;
+ top: 70rem;
+ transition: 0.3s;
+ cursor: pointer;
+}
+.card-7{
+  width: 190px;
+ height: 265px;
+ margin: 3rem auto;
+ background: linear-gradient(135deg, rgb(0, 106, 163), rgba(0, 0, 90, 0.323));
+ border-radius: 8px;
+ box-shadow:  0 0 4px #000000;
+ z-index: 1;
+ position: absolute;
+ right: 15%;
+ bottom: 10%;
+ top: 70rem;
+ transition: 0.3s;
+ cursor: pointer;
+}
+.tools {
+ display: flex;
+ align-items: center;
+ padding: 9px;
+}
+
+.circle {
+ padding: 0 4px;
+}
+
+.box {
+ display: inline-block;
+ align-items: center;
+ width: 10px;
+ height: 10px;
+ padding: 1px;
+ border-radius: 50%;
+}
+
+.red {
+ background-color: #ff605c;
+}
+
+.yellow {
+ background-color: #ffbd44;
+}
+
+.green {
+ background-color: #00ca4e;
+}
+.card__content p{
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  margin-left: 1rem;
+  color: white;
+  margin-top: .7rem;
+}
+.card__content p a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 1.8rem;
+  transition: all .6s ease;
+}
+.card__content p a:hover{
+  text-decoration: none;
+  color: rgb(0, 163, 213);
+  font-family: 'Preahvihear', sans-serif;
+  font-size:1.3rem;
+  transform: translateY(-1px)
+}
+
+.card__content  img {
+  height: 6rem;
+  position: absolute;
+  bottom: 7.8rem;
+  left: 2.8rem;
+  top: 16.4rem;
+}
+.heading{
+  font-size: 3rem;
+  position: absolute;
+  top: 100rem;
+  left: 40%;
+  text-align: center;
+  background: blue;
+  border-radius:15px ;
+}
+.Para{
+  position: absolute;
+  top: 113rem;
+  right: 50%;
+  left: 5%;
+  font-family: 'Preahvihear', sans-s0erif;
+  font-size: 1.4rem;
+}
+.photo{
+  width: 12rem;
+  position: absolute;
+  top: 110rem;
+  left: 55%;
+}
+.Heading{
+  font-size: 3rem;
+  position: absolute;
+  top: 138rem;
+  left: 40%;
+  text-align: center;
+  background: blue;
+  border-radius:15px ;
+}
+.Paras{
+  position: absolute;
+  top: 146rem;
+  right: 50%;
+  left: 5%;
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 1.4rem;
+}
+.Paras p span{
+  color: #3e77fe;
+  font-size: 1.4rem;
+}
+.Paras p a{
+  position: absolute;
+  top: 146rem;
+  right: 50%;
+  left: 5%;
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: skyblue;
+}
+.pic{
+  height: 1px;
+  position: absolute;
+  top: 147rem;
+  left: 50%;
+  right: 5%;
+  padding: 3px 5px;
+  width: 1rem;
+}
+
+.footer .credit{
+    text-align: center;
+    border-top: 1rem solid rgba(0,0,0,0.1);
+    font-size: 2rem;
+    color: var(--black);
+    padding: .5rem;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    position: absolute;
+    top: 171rem;
+    left: 25%;
+}
+.footer .credit span{
+    color: #27ae60;
+}
+@media(max-width:850px){
+  nav {
+        background: linear-gradient(135deg, rgb(0, 0, 73), rgb(0, 0, 80)) ;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 65px;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 19px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: rgb(59, 255, 255);
+        font-size: 1rem;
+      }
+      nav ul li a:hover {
+        color: white;
+        text-decoration: underline;
+        font-size: 1rem;
+      }
+      .left {
+        font-size: 1.4rem;
+        
+      }
+  .Firstsection{
+    flex-direction: column;
+  }
+  .Firstsection > div {
+        width: 30%;
+        margin: 40px 0px;
+      }
+      .leftSection {
+        font-size: 1.5rem;
+        margin: 30px 0px;
+      }
+
+      img {
+        height: 16rem;
+        margin: -110px 0px;
+      }
+      .secondsection {
+        margin: auto;
+        max-width: 80vw;
+        height: 40vh;
+      }
+      .secondsection h1 {
+        font-size: 1.5rem;
+      }
+      .text-gray {
+        color: gray;
+        margin: auto;
+        max-width: 80vw;
+        height: 40vh;
+      }
+      .card{
+        width: 150px;
+        height: 218px;
+        margin-right: -4rem;
+        position: absolute;
+        top: 38rem;
+        right: 40rem;
+      }
+      .card-1{
+        width: 150px;
+        height: 218px;
+        position: absolute;
+        /* margin-right: -30rem; */
+        top: 38rem;
+        right: 20rem;
+      }
+      .card-2{
+        width: 150px;
+        height: 225px;
+        /* margin-right: 1rem; */
+        position: absolute;
+        top: 38rem;
+        right: 3rem;
+       
+      }
+      .card-3{
+        width: 150px;
+        height: 225px;
+        margin-right: -4rem;
+        position: absolute;
+        top: 55rem;
+        right: 40rem;
+      
+      }
+      .card-4{
+        width: 150px;
+        height: 225px;
+        /* margin-right: 1rem; */
+        position: absolute;
+        top: 55rem;
+        right: 20rem;
+       
+      }
+      .card-5{
+        width: 150px;
+        height: 225px;
+        /* margin-right: -11rem; */
+        position: absolute;
+        top: 55rem;
+        right: 3rem;
+      }
+      .card-6{
+        width: 150px;
+        height: 225px;
+        /* margin-right: 1rem; */
+        position: absolute;
+        top: 75rem;
+        right: 12rem;
+        
+      }
+      .card-7{
+        width: 150px;
+        height: 225px;
+        margin-right: -1rem;
+        position: absolute;
+        top: 75rem;
+        right: 30rem;
+       
+      }
+      .card__content p{
+        font-size: 1.2rem;
+      }
+      .card__content p a{
+      font-size: 1.2rem;
+      }
+      .card__content  img {
+      height: 4rem;
+      position: absolute;
+      bottom: 7.8rem;
+      left: 2.8rem;
+      top: 16.4rem;
+      }
+      .heading{
+      font-size: 2rem;
+      position: absolute;
+      top: 105rem;
+      left: 35%;
+      text-align: center;
+      background: blue;
+      border-radius:15px ;
+      width: 15rem;
+      }
+      .Para{
+      position: absolute;
+      top: 115rem;
+      right: 50%;
+      left: 5%;
+      font-family: 'Preahvihear', sans-serif;
+      font-size: 1.3rem;
+      }
+      .photo{
+       /* width: 2rem; */
+       height: 5rem;
+       position: absolute;
+       top: 122rem;
+       left: 58%;
+       padding: 0 3%;
+      }
+      .Heading{
+        font-size: 2rem;
+        position: absolute;
+        top: 140rem;
+      left: 35%;
+      text-align: center;
+      background: blue;
+      border-radius:15px ;
+      width: 15rem;
+    }        
+    .Paras{
+      position: absolute;
+      top: 148rem;
+      right: 50%;
+      left: 10%;
+      font-family: 'Preahvihear', sans-serif;
+      font-size: 2rem;
+      }        
+      .Paras p a{
+      position: absolute;
+      top: 146rem;
+      right: 50%;
+      left: 3%;
+      font-family: 'Preahvihear', sans-serif;
+      font-size: 1.4rem;
+      text-decoration: none;
+      color: skyblue;
+      }   
+
+      .pic{
+        position: absolute;
+        top: 164rem;
+        left: 30%;
+        /* right: 50%; */
+        padding: 7px 5px;
+      }
+      .footer .credit{
+        text-align: center;
+        border-top: 1rem solid rgba(0,0,0,0.1);
+        font-size: 2rem;
+        color: var(--black);
+        padding: .5rem;
+        padding: 1.5rem;
+        margin-top: 2rem;
+        position: absolute;
+        top: 178rem;
+        left: 20%;
+      }
+      .footer .credit span{
+        color: #27ae60;
+      }
+    }    
+    @media(max-width:500px){
+      nav {
+            background: linear-gradient(135deg, rgb(0, 0, 73), rgb(0, 0, 80)) ;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 55px;
+          }
+          nav ul {
+            display: flex;
+            justify-content: center;
+          }
+          nav ul li {
+            list-style: none;
+            margin: 0 5.5px;
+          }
+          nav ul li a {
+            text-decoration: none;
+            color: rgb(59, 255, 255);
+            font-size: .6rem;
+          }
+          nav ul li a:hover {
+            color: white;
+            text-decoration: underline;
+            font-size: 1rem;
+          }
+          .left {
+            font-size: .7rem;
+            
+          }
+      .Firstsection{
+        flex-direction: column;
+      }
+      .Firstsection > div {
+            width: 63%;
+            margin: 40px 0px;
+          }
+          .leftSection {
+            font-size: 1.3rem;
+            margin: 30px 0px;
+          }
+    
+          img {
+            height: 14rem;
+            margin: -110px 0px;
+          }
+          .secondsection {
+            margin: auto;
+            max-width: 80vw;
+            height: 40vh;
+          }
+          .secondsection h1 {
+            font-size: 1.3rem;
+          }
+          .text-gray {
+            color: gray;
+            margin: auto;
+            max-width: 80vw;
+            height: 40vh;
+          }
+          .card{
+            width: 130px;
+            height: 218px;
+            /* margin-right: -4rem; */
+            position: absolute;
+            top: 35rem;
+            right: 12rem;
+          }
+          .card-1{
+            width: 130px;
+            height: 218px;
+            position: absolute;
+            margin-right: -11rem;
+            top: 35rem;
+          }
+          .card-2{
+            width: 130px;
+            height: 225px;
+            /* margin-right: 1rem; */
+            position: absolute;
+            top: 55rem;
+            right: 12rem;
+           
+          }
+          .card-3{
+            width: 130px;
+            height: 225px;
+            margin-right: -1rem;
+            position: absolute;
+            top: 55rem;
+            left: 12rem;
+          
+          }
+          .card-4{
+            width: 130px;
+            height: 225px;
+            /* margin-right: 1rem; */
+            position: absolute;
+            top: 75rem;
+            right: 12rem;
+           
+          }
+          .card-5{
+            width: 130px;
+            height: 225px;
+            margin-right: -11rem;
+            position: absolute;
+            top: 75rem;
+            left: 12rem;
+          }
+          .card-6{
+            width: 130px;
+            height: 225px;
+            /* margin-right: 1rem; */
+            position: absolute;
+            top: 95rem;
+            right: 12rem;
+          
+          }
+          .card-7{
+            width: 130px;
+            height: 225px;
+            margin-right: -1rem;
+            position: absolute;
+            top: 95rem;
+            left: 12rem;
+           
+          }
+          .card__content p{
+            font-size: 1.2rem;
+          }
+          .card__content p a{
+          font-size: 1.2rem;
+          }
+          .card__content  img {
+          height: 4rem;
+          position: absolute;
+          bottom: 7.8rem;
+          left: 2.8rem;
+          top: 16.4rem;
+          }
+          .heading{
+          font-size: 1.5rem;
+          position: absolute;
+          top: 116rem;
+          left: 33%;
+          text-align: center;
+          background: blue;
+          border-radius:15px ;
+          width: 9rem;
+          }
+          .Para{
+          position: absolute;
+          top: 123rem;
+          right: 50%;
+          left: 3%;
+          font-family: 'Preahvihear', sans-serif;
+          font-size: .75rem;
+          }
+          .photo{
+           width: 1rem;
+           position: absolute;
+           top: 125rem;
+           left: 43%;
+           padding: 0 2%;
+          }
+          .Heading{
+          font-size: 1.5rem;
+          position: absolute;
+          top: 140rem;
+          left: 33%;
+          text-align: center;
+          background: blue;
+          border-radius:15px ;
+          width: 10rem;
+          }        
+          .Paras{
+          position: absolute;
+          top: 148rem;
+          right: 50%;
+          left: 10%;
+          font-family: 'Preahvihear', sans-serif;
+          font-size: 1rem;
+          }        
+          .Paras p a{
+          position: absolute;
+          top: 146rem;
+          right: 50%;
+          left: 3%;
+          font-family: 'Preahvihear', sans-serif;
+          font-size: 1rem;
+          text-decoration: none;
+          color: skyblue;
+          }   
+    
+          .pic{
+            position: absolute;
+            top: 162rem;
+            left: 22%;
+            /* right: 50%; */
+            padding: 3px 1px;
+          }
+          .footer .credit{
+            text-align: center;
+            border-top: 1rem solid rgba(0,0,0,0.1);
+            font-size: 1rem;
+            color: var(--black);
+            padding: .5rem;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+            position: absolute;
+            top: 171rem;
+            left: 15%;
+            }
+    .footer .credit span{
+        color: #27ae60;
+    }
+    }    
+
+
+
+      
+      
+     
+      
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Khubaib's Portfolio</div>
+        <ul class="header navbar">
+          <li><a href="#Firstsection">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#secondsection">Services</a></li>
+          <li><a href="#secondsection">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="Firstsection" data-aos="fade-right"  data-aos-delay="150" id="Firstsection">
+        <div class="leftSection" data-aos="fade left"  data-aos-delay="150">
+          Hey, my name is <span class="purple">Khubaib</span> and
+          <div>I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection" data-aos="fade-down"  data-aos-delay="150">
+          <img src="bg.png">
+        </div>
+      </section>
+      <hr>
+
+      <section class="secondsection" id="secondsection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="card" data-aos="fade-right"  data-aos-delay="150">
+          <div class="tools">
+            <div class="circle">
+              <span class="red box"></span>
+            </div>
+            <div class="circle">
+              <span class="yellow box"></span>
+            </div>
+            <div class="circle">
+              <span class="green box"></span>
+            </div>
+          </div>
+          <div class="card__content">
+            <p><a href="https://khubaib-calculator.netlify.app/">Calculator</a></p>
+            <p>Click &#8593</p>
+            <img src="claculator.png" class="img">
+          </div>
+        </div>
+        
+        <div class="card-1" data-aos="fade-left"  data-aos-delay="150">
+          <div class="tools">
+            <div class="circle">
+              <span class="red box"></span>
+            </div>
+            <div class="circle">
+              <span class="yellow box"></span>
+            </div>
+            <div class="circle">
+              <span class="green box"></span>
+            </div>
+          </div>
+          <div class="card__content">
+            <p><a href="https://khubaib-digitalclock.netlify.app/">Digital Clock</a></p>
+            <p>Click &#8593</p>
+            <img src="clock.png" class="img">
+          </div>
+        </div>
+        
+        <div class="card-2" data-aos="fade-right"  data-aos-delay="150">
+          <div class="tools">
+            <div class="circle">
+              <span class="red box"></span>
+            </div>
+            <div class="circle">
+              <span class="yellow box"></span>
+            </div>
+            <div class="circle">
+              <span class="green box"></span>
+            </div>
+          </div>
+          <div class="card__content">
+            <p><a href="https://khubaib-quotesgenerator.netlify.app/">Quote Generator</a></p>
+            <p>Click &#8593</p>
+            <img src="quotes.webp" class="image">
+          </div>
+        </div>
+       
+        <div class="card-3" data-aos="fade-left"  data-aos-delay="150">
+          <div class="tools">
+            <div class="circle">
+              <span class="red box"></span>
+            </div>
+            <div class="circle">
+              <span class="yellow box"></span>
+            </div>
+            <div class="circle">
+              <span class="green box"></span>
+            </div>
+          </div>
+          <div class="card__content">
+            <p><a href="https://khubaib-weather-website.netlify.app/">Weather App</a></p>
+            <p>Click &#8593</p>
+            <img src="weather'.png" class="image">
+          </div>
+        </div>
+       
+        <div class="card-4" data-aos="fade-right"  data-aos-delay="150">
+          <div class="tools">
+            <div class="circle">
+              <span class="red box"></span>
+            </div>
+            <div class="circle">
+              <span class="yellow box"></span>
+            </div>
+            <div class="circle">
+              <span class="green box"></span>
+            </div>
+          </div>
+          <div class="card__content">
+            <p><a href="https://khubaib-password-generator.netlify.app/">Password Generator</a></p>
+            <p>Click &#8593</p>
+            <img src="pass.png" class="image">
+          </div>
+        </div>
+        
+        <div class="card-5" data-aos="fade-left"  data-aos-delay="150">
+          <div class="tools">
+            <div class="circle">
+              <span class="red box"></span>
+            </div>
+            <div class="circle">
+              <span class="yellow box"></span>
+            </div>
+            <div class="circle">
+              <span class="green box"></span>
+            </div>
+          </div>
+          <div class="card__content">
+            <p><a href="https://khubaib-grocery.netlify.app/">Grocery Website</a></p>
+            <p>Click &#8593</p>
+            <img src="groco.png" class="image">
+          </div>
+        </div>
+        
+        <div class="card-6" data-aos="fade-right"  data-aos-delay="150">
+          <div class="tools">
+            <div class="circle">
+              <span class="red box"></span>
+            </div>
+            <div class="circle">
+              <span class="yellow box"></span>
+            </div>
+            <div class="circle">
+              <span class="green box"></span>
+            </div>
+          </div>
+          <div class="card__content">
+            <p><a href="https://khubaibwasim00.github.io/Khubaib-s-College.github.io/">College Website</a></p>
+            <p>Click &#8593</p>
+            <img src="college.png" class="image">
+          </div>
+        </div>
+        
+        <div class="card-7" data-aos="fade-left"  data-aos-delay="150">
+          <div class="tools">
+            <div class="circle">
+              <span class="red box"></span>
+            </div>
+            <div class="circle">
+              <span class="yellow box"></span>
+            </div>
+            <div class="circle">
+              <span class="green box"></span>
+            </div>
+          </div>
+          <div class="card__content">
+            <p><a href="https://khubaibwasim00.github.io/interior.github.io/">Interior Website</a></p>
+            <p>Click &#8593</p>
+            <img src="int.webp" class="image">
+          </div>
+        </div>
+      </section>
+   
+
+      <section class="about"  id="about">
+        <div class="heading">About Me</div>
+        <div class="Para"  data-aos="fade-down"  data-aos-delay="150">
+          Welcome to my portfolio! As a skilled and dedicated web developer, I am passionate about crafting innovative digital solutions. With a strong foundation in HTML, CSS, and JavaScript, I bring creativity and technical expertise to every project I undertake. From responsive web design to interactive user interfaces, With a keen eye for detail and a focus on user experience. Let's bring your digital vision to life together.
+        </div>
+        <div class="photo"  data-aos="fade-right"  data-aos-delay="150">
+          <img src="about.webp" alt="">
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="Heading">Contact Me</div>
+        <div class="Paras"  data-aos="fade-down"  data-aos-delay="150">
+          <p><span>My Phone Number</span> : 0321-2254948<a href="0321-2254948"></a></p>
+          <p><span>My Email</span> : khubaibwasim75@gmail.com<a href="khubaibwasim75@gmail.com"></a></p>
+        </div>
+        <div class="pic" data-aos="fade-down"  data-aos-delay="150" >
+          <img src="contact.png" alt="">
+        </div>
+      </section>
+  
+      <section class="footer" id="footer"> 
+        <div class="credit"> copyright @ 2023 by <span>M.Khubaib</span></div>
+      </section>
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init({
+            duration: 800,
+        });
+    </script>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [" HTML developer", "CSS developer", "JS developer"],
+        typeSpeed: 50,
+      });
+    </script>
+
+
+  </body>
+</html>
